@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111f"><title>MetaScalp — Crypto Scalping Engine</title>
+<style>
+:root{color-scheme:dark;--bg:#07111f;--panel:#0d1c2d;--line:#1d344b;--muted:#91a6ba;--text:#e8f0f7;--cyan:#4cc9f0;--green:#48d597;--red:#ff7185;--yellow:#f6c85f}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 20% 0,#102943 0,transparent 45%),var(--bg);color:var(--text);font:14px/1.5 Inter,system-ui,sans-serif}
+main{max-width:1180px;margin:auto;padding:24px 18px 60px}header{display:flex;justify-content:space-between;gap:18px;align-items:center;flex-wrap:wrap;margin-bottom:22px}
+h1{font-size:25px;letter-spacing:-.7px;margin:0}h1 span{color:var(--cyan)}.sub,.muted{color:var(--muted)}.actions{display:flex;gap:8px;align-items:center}
+button{border:1px solid var(--line);background:#14304a;color:var(--text);padding:10px 14px;border-radius:9px;cursor:pointer}button.primary{background:var(--cyan);color:#04121e;border:0;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}.panel,.metric{background:linear-gradient(145deg,#10243a,#0b1929);border:1px solid var(--line);border-radius:13px;padding:15px}
+.metric small{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.7px}.metric strong{display:block;font-size:22px;margin-top:5px}
+.section{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:26px 0 10px}.section h2{font-size:17px;margin:0}.pill{border:1px solid var(--line);border-radius:99px;padding:4px 9px;color:var(--muted);font-size:11px}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.signal{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:16px}.sighead{display:flex;justify-content:space-between;align-items:center}.symbol{font-size:18px;font-weight:750}.side{font-size:11px;font-weight:800;padding:4px 9px;border-radius:6px}.LONG{color:var(--green);background:#12382f}.SHORT{color:var(--red);background:#401d2a}
+.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:15px 0}.levels div{background:#091625;padding:9px;border-radius:8px;min-width:0}.levels small{display:block;color:var(--muted);font-size:10px}.levels b{font-size:14px;overflow-wrap:anywhere}
+.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:10px;padding:4px 7px;border-radius:6px;background:#172e44;color:#b8d5e8}.reason{color:var(--muted);font-size:12px;margin-top:10px}.warning{border:1px solid #65512a;background:#2b2415;color:#f5d78b;padding:12px;border-radius:10px;margin:16px 0}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line);font-size:12px}th{color:var(--muted);font-weight:500}.scroll{overflow:auto}.empty{padding:30px;text-align:center;color:var(--muted)}
+footer{margin-top:30px;color:var(--muted);font-size:11px}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}}@media(max-width:390px){main{padding:16px 10px}.levels b{font-size:12px}}
+</style></head><body><main>
+<header><div><h1><span>META</span>SCALP <span class="pill">v1.0 · RULE-BASED</span></h1><div class="sub">Liquidity · Price action · Trigger confirmation · Low drawdown mindset</div></div>
+<div class="actions"><span id="updated" class="muted">Belum dimuat</span><button id="refresh" class="primary">⟳ Muat ulang</button></div></header>
+<div class="warning">⚠️ Dashboard riset dan edukasi, bukan financial advice atau eksekusi order. Sinyal adalah kandidat setup limit; tunggu harga mencapai entry dan validasi ulang candle. Jangan gunakan leverage tinggi.</div>
+<div class="grid">
+<div class="metric"><small>Market regime BTC</small><strong id="regime">—</strong></div>
+<div class="metric"><small>Pair dianalisis</small><strong id="scanned">—</strong></div>
+<div class="metric"><small>Setup lolos</small><strong id="setups">—</strong></div>
+<div class="metric"><small>Ditolak / no-trade</small><strong id="rejected">—</strong></div>
+</div>
+<div class="section"><h2>High-quality scalp candidates</h2><span class="pill">Max 5 · RR target 2R</span></div>
+<div id="signals" class="cards"><div class="panel empty">Memuat data…</div></div>
+<div class="section"><h2>Decision audit</h2><span class="pill">Reason codes</span></div>
+<div class="panel scroll"><table><thead><tr><th>PAIR</th><th>STATUS</th><th>REASON / TRIGGER</th></tr></thead><tbody id="audit"><tr><td colspan="3">—</td></tr></tbody></table></div>
+<footer>Data publik Binance Spot · closed candles only · Engine does not execute trades. GitHub Actions schedule is best-effort and may be delayed. Last data: <span id="stamp">—</span></footer>
+</main>
+<script>
+const $=id=>document.getElementById(id),fmt=n=>Number.isFinite(+n)?(+n).toLocaleString('en-US',{maximumFractionDigits:8}):'—';
+function render(d){
+ $('updated').textContent='Updated '+new Date(d.generatedAt).toLocaleTimeString();
+ $('stamp').textContent=new Date(d.generatedAt).toLocaleString();
+ $('regime').textContent=d.market;$('regime').style.color=d.btcTrend>0?'#48d597':d.btcTrend<0?'#ff7185':'#f6c85f';
+ $('scanned').textContent=d.scanned;$('setups').textContent=d.summary.setups;$('rejected').textContent=d.summary.noTrade;
+ $('signals').innerHTML=d.signals.length?d.signals.map(s=>`<article class="signal"><div class="sighead"><span class="symbol">${s.symbol}</span><span class="side ${s.side}">${s.side} · ${s.score}/8</span></div>
+ <div class="levels"><div><small>LIMIT ENTRY</small><b>${fmt(s.entry)}</b></div><div><small>STOP LOSS</small><b>${fmt(s.sl)}</b></div><div><small>TAKE PROFIT</small><b>${fmt(s.tp)}</b></div></div>
+ <div class="tags"><span class="tag">${s.trigger}</span><span class="tag">RR ${s.rr.toFixed(2)}R</span><span class="tag">SL ${s.stopPct.toFixed(2)}%</span><span class="tag">Net target ~${s.netTargetR.toFixed(2)}R</span></div>
+ <div class="reason">${s.reasons.join(' · ')}</div><div class="reason">${s.note}</div></article>`).join(''):'<div class="panel empty">Tidak ada setup yang memenuhi filter. NO_TRADE adalah hasil yang valid.</div>';
+ $('audit').innerHTML=(d.rejected||[]).slice(0,35).map(x=>`<tr><td>${x.symbol}</td><td>NO_TRADE</td><td>${(x.reasons||[]).join(', ')}</td></tr>`).join('')||'<tr><td colspan="3">Tidak ada rejection log.</td></tr>';
+}
+async function load(){
+ $('refresh').disabled=true;$('refresh').textContent='Scanning…';
+ try{let r=await fetch('./data/latest.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('Belum ada hasil scan Actions');render(await r.json());}
+ catch(e){$('signals').innerHTML='<div class="panel empty">Data scan belum tersedia. Jalankan workflow “MetaScalp Scan” di GitHub Actions atau tunggu jadwal scan.</div>';$('updated').textContent=e.message;}
+ finally{$('refresh').disabled=false;$('refresh').textContent='⟳ Muat ulang';}
+}
+$('refresh').addEventListener('click',load);load();
+</script></body></html>

@@ -1,0 +1,17 @@
+{
+  "name": "metascalp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Rule-based crypto scalping research and dashboard engine",
+  "scripts": {
+    "scan": "node scripts/scan.mjs",
+    "test": "node --test",
+    "check": "node --check src/engine.mjs && node --check scripts/scan.mjs",
+    "grade": "node scripts/grade.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

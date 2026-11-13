@@ -1,0 +1,15 @@
+{
+  "generatedAt": null,
+  "engine": "MetaScalp",
+  "version": 1,
+  "btcTrend": 0,
+  "market": "NEUTRAL",
+  "scanned": 0,
+  "signals": [],
+  "summary": {
+    "setups": 0,
+    "noTrade": 0,
+    "errors": 0
+  },
+  "rejected": []
+}
