@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T10:04:06.167Z",
+  "generatedAt": "2026-11-13T17:39:24.882Z",
   "engine": "MetaScalp",
   "version": 1,
   "btcTrend": -1,
@@ -14,12 +14,188 @@
   "rejected": [
     {
       "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
         "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
       "reasons": [
         "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "COUNTER_TREND"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "COUNTER_TREND"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE",
+        "TREND_NEUTRAL"
       ]
     },
     {
@@ -46,7 +222,7 @@
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER",
+        "MID_RANGE_NO_EDGE",
         "TREND_NEUTRAL"
       ]
     },
@@ -54,6 +230,21 @@
       "reasons": [
         "NO_CONFIRMED_TRIGGER",
         "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
@@ -73,211 +264,12 @@
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER"
+        "INVALID_SYMBOL"
       ]
     },
     {
       "reasons": [
         "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "BTC_REGIME_BLOCK"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
       ]
     }
   ]
