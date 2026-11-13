@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#07111f"><title>MetaScalp — Crypto Scalping Engine</title>
+<meta name="theme-color" content="#07111f"><title>GptScalp — Crypto Scalping Engine</title>
 <style>
 :root{color-scheme:dark;--bg:#07111f;--panel:#0d1c2d;--line:#1d344b;--muted:#91a6ba;--text:#e8f0f7;--cyan:#4cc9f0;--green:#48d597;--red:#ff7185;--yellow:#f6c85f}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 20% 0,#102943 0,transparent 45%),var(--bg);color:var(--text);font:14px/1.5 Inter,system-ui,sans-serif}
@@ -48,7 +48,7 @@ function render(d){
 async function load(){
  $('refresh').disabled=true;$('refresh').textContent='Scanning…';
  try{let r=await fetch('./data/latest.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('Belum ada hasil scan Actions');render(await r.json());}
- catch(e){$('signals').innerHTML='<div class="panel empty">Data scan belum tersedia. Jalankan workflow “MetaScalp Scan” di GitHub Actions atau tunggu jadwal scan.</div>';$('updated').textContent=e.message;}
+ catch(e){$('signals').innerHTML='<div class="panel empty">Data scan belum tersedia. Jalankan workflow “GptScalp Scan” di GitHub Actions atau tunggu jadwal scan.</div>';$('updated').textContent=e.message;}
  finally{$('refresh').disabled=false;$('refresh').textContent='⟳ Muat ulang';}
 }
 $('refresh').addEventListener('click',load);load();
