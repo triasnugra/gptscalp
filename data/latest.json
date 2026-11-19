@@ -1,31 +1,57 @@
 {
-  "generatedAt": "2026-11-18T18:54:19.784Z",
+  "generatedAt": "2026-11-19T00:51:07.743Z",
   "engine": "MetaScalp",
   "version": 1,
   "btcTrend": -1,
   "market": "BEARISH",
   "scanned": 50,
-  "signals": [],
+  "signals": [
+    {
+      "status": "SETUP",
+      "symbol": "CRCLBUSDT",
+      "side": "SHORT",
+      "sideCode": -1,
+      "score": 6,
+      "price": 54.16,
+      "entry": 54.22,
+      "sl": 54.285064000000006,
+      "tp": 54.089871999999986,
+      "rr": 2,
+      "stopPct": 0.12,
+      "distPct": 0.11066027296201084,
+      "trigger": "SWEEP_RECLAIM_HIGH",
+      "range": {
+        "high": 54.22,
+        "low": 52.97
+      },
+      "rangePos": 0.9519999999999982,
+      "bias": -1,
+      "btcTrend": -1,
+      "quoteVolume": 17684384.8441,
+      "spreadPct": 0.0184552920549931,
+      "estimatedCostR": 1.3333333333331965,
+      "netTargetR": 0.6666666666668035,
+      "reasons": [
+        "SWEEP_RECLAIM_HIGH",
+        "H1_TREND_ALIGNED",
+        "5M_CLOSED_CANDLE_CONFIRMATION",
+        "RSI_MOMENTUM_ALIGNED",
+        "RANGE_EXTREME"
+      ],
+      "createdAt": "2026-11-19T00:51:07.075Z",
+      "invalidation": "5m close above sweep high / stop",
+      "note": "Limit/retest idea only. Wait for price to reach entry; do not chase."
+    }
+  ],
   "summary": {
-    "setups": 0,
-    "noTrade": 50,
+    "setups": 1,
+    "noTrade": 49,
     "errors": 0
   },
   "rejected": [
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
@@ -41,139 +67,12 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
         "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
       "reasons": [
         "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
       ]
     },
     {
@@ -184,12 +83,12 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
       "reasons": [
-        "SPREAD_TOO_WIDE"
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
@@ -210,12 +109,19 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "MID_RANGE_NO_EDGE",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
@@ -236,6 +142,100 @@
     {
       "reasons": [
         "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
       ]
     },
     {
@@ -250,11 +250,6 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
         "SPREAD_TOO_WIDE"
       ]
     },
@@ -265,7 +260,50 @@
     },
     {
       "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
         "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
       ]
     }
   ]
