@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-19T08:00:29.755Z",
+  "generatedAt": "2026-11-19T17:13:43.731Z",
   "engine": "MetaScalp",
   "version": 1,
-  "btcTrend": 0,
-  "market": "NEUTRAL",
+  "btcTrend": -1,
+  "market": "BEARISH",
   "scanned": 50,
   "signals": [],
   "summary": {
@@ -14,6 +14,22 @@
   "rejected": [
     {
       "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
         "NO_CONFIRMED_TRIGGER",
         "TREND_NEUTRAL"
       ]
@@ -31,11 +47,6 @@
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
         "NO_CONFIRMED_TRIGGER",
         "TREND_NEUTRAL"
       ]
@@ -59,6 +70,11 @@
     {
       "reasons": [
         "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
       ]
     },
     {
@@ -69,8 +85,100 @@
     },
     {
       "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
         "NO_CONFIRMED_TRIGGER",
         "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
@@ -85,7 +193,12 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
@@ -107,141 +220,12 @@
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
         "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
         "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "COUNTER_TREND",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "BTC_REGIME_UNCLEAR"
       ]
     },
     {
@@ -267,17 +251,27 @@
     },
     {
       "reasons": [
-        "SPREAD_TOO_WIDE"
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
       "reasons": [
-        "SPREAD_TOO_WIDE"
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE",
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "COUNTER_TREND"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
         "TREND_NEUTRAL"
       ]
     },
