@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:53:57.753Z",
+  "generatedAt": "2026-11-21T01:51:39.559Z",
   "engine": "MetaScalp",
   "version": 1,
   "btcTrend": -1,
@@ -24,22 +24,12 @@
     },
     {
       "reasons": [
-        "COUNTER_TREND"
+        "MID_RANGE_NO_EDGE"
       ]
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "COUNTER_TREND"
+        "MID_RANGE_NO_EDGE"
       ]
     },
     {
@@ -59,7 +49,7 @@
     },
     {
       "reasons": [
-        "COUNTER_TREND"
+        "MID_RANGE_NO_EDGE"
       ]
     },
     {
@@ -69,7 +59,17 @@
     },
     {
       "reasons": [
-        "COUNTER_TREND"
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
@@ -84,22 +84,7 @@
     },
     {
       "reasons": [
-        "COUNTER_TREND"
-      ]
-    },
-    {
-      "reasons": [
-        "COUNTER_TREND"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "COUNTER_TREND"
+        "MID_RANGE_NO_EDGE"
       ]
     },
     {
@@ -110,6 +95,11 @@
     {
       "reasons": [
         "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
       ]
     },
     {
@@ -139,7 +129,17 @@
     },
     {
       "reasons": [
-        "COUNTER_TREND"
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
@@ -155,6 +155,11 @@
     {
       "reasons": [
         "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
       ]
     },
     {
@@ -169,68 +174,17 @@
     },
     {
       "reasons": [
-        "COUNTER_TREND"
-      ]
-    },
-    {
-      "reasons": [
-        "COUNTER_TREND"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "COUNTER_TREND"
-      ]
-    },
-    {
-      "reasons": [
         "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE",
-        "TREND_NEUTRAL"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
         "MID_RANGE_NO_EDGE"
       ]
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
         "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
       ]
     },
     {
@@ -250,18 +204,63 @@
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER"
+        "SPREAD_TOO_WIDE"
       ]
     },
     {
       "reasons": [
-        "SPREAD_TOO_WIDE"
+        "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
       "reasons": [
         "NO_CONFIRMED_TRIGGER",
         "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE"
       ]
     }
   ]
