@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-25T10:45:46.576Z",
+  "generatedAt": "2026-11-25T20:14:28.543Z",
   "engine": "MetaScalp",
   "version": 1,
-  "btcTrend": -1,
-  "market": "BEARISH",
+  "btcTrend": 0,
+  "market": "NEUTRAL",
   "scanned": 50,
   "signals": [],
   "summary": {
@@ -14,47 +14,8 @@
   "rejected": [
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
@@ -65,42 +26,20 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "SPREAD_TOO_WIDE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
@@ -121,47 +60,26 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
-      ]
-    },
-    {
-      "reasons": [
-        "NO_CONFIRMED_TRIGGER"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
@@ -171,7 +89,20 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
@@ -181,32 +112,26 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "SPREAD_TOO_WIDE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "SPREAD_TOO_WIDE"
-      ]
-    },
-    {
-      "reasons": [
-        "MID_RANGE_NO_EDGE"
-      ]
-    },
-    {
-      "reasons": [
-        "SPREAD_TOO_WIDE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
@@ -216,22 +141,31 @@
     },
     {
       "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
         "NO_CONFIRMED_TRIGGER"
       ]
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "NO_CONFIRMED_TRIGGER"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
       "reasons": [
-        "SPREAD_TOO_WIDE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     },
     {
@@ -252,7 +186,95 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "MID_RANGE_NO_EDGE",
+        "TREND_NEUTRAL"
       ]
     },
     {
@@ -262,7 +284,19 @@
     },
     {
       "reasons": [
-        "MID_RANGE_NO_EDGE"
+        "SPREAD_TOO_WIDE"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
+      ]
+    },
+    {
+      "reasons": [
+        "NO_CONFIRMED_TRIGGER",
+        "TREND_NEUTRAL"
       ]
     }
   ]
